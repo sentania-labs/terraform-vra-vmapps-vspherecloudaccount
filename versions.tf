@@ -1,8 +1,13 @@
 terraform {
   required_providers {
-    aws = {
-      source = "hashicorp/aws"
-      version = "~> 5.0"
+    vra = {
+      source  = "vmware/vra"
+      version = ">= 0.3.3"
+    }
+    vsphere = {
+      source  = "vmware/vsphere"
+      version = ">= 1.24.2"
     }
   }
+  required_version = ">= 0.13"
 }
