@@ -28,6 +28,6 @@ module "cloud_accounts_vsphere" {
   username            = var.serviceAccountUserName
   enabled_datacenters = each.value.enabled_datacenters
   capability_tags     = each.value.capability_tags
-  nsx_manager          = module.cloud_accounts_nsxt[each.value.nsx_manager].cloud_account.id
+  nsx_manager         = module.cloud_accounts_nsxt[each.value.nsx_manager].cloud_account.id
 }
 ###END vSphere

@@ -5,7 +5,7 @@ variable "vsphere_accounts" {
     hostname            = string
     description         = string
     enabled_datacenters = list(string)
-    nsx_manager          = string
+    nsx_manager         = string
 
     capability_tags = list(object({
       key   = string
