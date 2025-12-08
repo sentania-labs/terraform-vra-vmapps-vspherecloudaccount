@@ -28,7 +28,7 @@ resource "vra_cloud_account_vsphere" "this" {
       external_region_id = enabled_regions.value.external_region_id
     }
   }
-  associated_cloud_account_ids = var.nsxManager != "" ? [var.nsxManager] : []
+  associated_cloud_account_ids = var.nsx_manager != "" ? [var.nsx_manager] : []
   accept_self_signed_cert      = var.accept_self_signed_cert
   dynamic "tags" {
     for_each = var.capability_tags
