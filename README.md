@@ -62,7 +62,7 @@ No modules.
 | <a name="input_enabled_datacenters"></a> [enabled\_datacenters](#input\_enabled\_datacenters) | An array of vSphere Datacenters to enable for automation | `list(any)` | n/a | yes |
 | <a name="input_hostname"></a> [hostname](#input\_hostname) | The FQDN of the vcenter server | `string` | n/a | yes |
 | <a name="input_name"></a> [name](#input\_name) | The name of the cloud account | `string` | n/a | yes |
-| <a name="input_nsxManager"></a> [nsxManager](#input\_nsxManager) | The NSX manager connected to this vCenter | `string` | `""` | no |
+| <a name="input_nsx_manager"></a> [nsx\_manager](#input\_nsx\_manager) | The NSX manager connected to this vCenter | `string` | `""` | no |
 | <a name="input_password"></a> [password](#input\_password) | The password for the service account | `string` | n/a | yes |
 | <a name="input_username"></a> [username](#input\_username) | The username for the service account | `string` | n/a | yes |
 
