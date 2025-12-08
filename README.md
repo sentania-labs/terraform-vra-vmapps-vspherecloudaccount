@@ -34,7 +34,6 @@ Fork the repository and enable it as a repository template under `Settings`.
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13 |
 | <a name="requirement_vra"></a> [vra](#requirement\_vra) | >= 0.3.3 |
-| <a name="requirement_vsphere"></a> [vsphere](#requirement\_vsphere) | >= 1.24.2 |
 
 ## Providers
 
