@@ -42,7 +42,7 @@ variable "enabled_datacenters" {
   description = "An array of vSphere Datacenters to enable for automation"
 }
 
-variable "nsxManager" {
+variable "nsx_manager" {
   default     = ""
   type        = string
   description = "The NSX manager connected to this vCenter"
