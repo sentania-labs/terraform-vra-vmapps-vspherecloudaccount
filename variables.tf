@@ -11,7 +11,7 @@ variable "capability_tags" {
 
 variable "description" {
   type        = string
-  default     = "Manged by TF - Do not edit!"
+  default     = "Managed by TF - Do not edit!"
   description = "A description for the cloud account"
 }
 

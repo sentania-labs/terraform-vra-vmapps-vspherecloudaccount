@@ -2,10 +2,10 @@ terraform {
   required_providers {
     vra = {
       source  = "vmware/vra"
-      version = ">= 0.15.0"
+      version = ">= 0.16.0"
     }
   }
-  required_version = ">= 1.5.0"
+  required_version = ">= 1.14.0"
 }
 
 provider "vra" {
@@ -28,6 +28,5 @@ module "cloud_accounts_vsphere" {
   username            = var.serviceAccountUserName
   enabled_datacenters = each.value.enabled_datacenters
   capability_tags     = each.value.capability_tags
-  nsx_manager         = module.cloud_accounts_nsxt[each.value.nsx_manager].cloud_account.id
 }
 ###END vSphere
